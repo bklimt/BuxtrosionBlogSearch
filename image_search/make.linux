@@ -1,0 +1,1 @@
+gcc -o image_search -L/usr2/bklimt/install/pgsql/lib -I/usr2/bklimt/install/pgsql/include -lpq parse.cpp storage.cpp stem.c index.cpp language.cpp server.cpp -lstdc++ -lpq

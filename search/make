@@ -1,0 +1,1 @@
+gcc -o search -L/usr/local/pgsql/lib -I/usr/local/pgsql/include -lpq parse.cpp storage.cpp stem.c index.cpp language.cpp server.cpp -lstdc++ -lpq
